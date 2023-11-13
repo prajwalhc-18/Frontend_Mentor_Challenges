@@ -1,0 +1,88 @@
+html,body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.8em;
+    color: #666;
+    scroll-behavior: smooth;
+}
+
+.pimg1{
+    background:url("./images/img-1.jpg");
+    min-height: 100%;
+}
+
+.pimg2{
+    background: url("./images/img-2.jpg");
+    min-height: 100%;
+}
+
+.pimg3{
+    background: url("./images/img-3.jpg");
+    min-height: 100%;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.textBg {
+    color: rgb(0, 13, 154);
+    background: #ffffff;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.textBg:hover {
+    color: #ffffff;
+    background-color: rgb(0, 13, 154);
+    border-radius: 10px;
+}
+
+.section {
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.section:hover {
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+.secton-light {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.section-light>h2 {
+    font-size: 2.5rem;
+}
+
+.section-light>h2:hover {
+    color: black;
+}
+
+#text {
+    font-size: 20px;
+
+}
