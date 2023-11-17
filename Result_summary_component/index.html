@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Result summary</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="section-1">
+        <h5>Your Result</h5>
+
+        <div class="avg">
+          <p id="average"><span id="avvgg">95</span></p>
+          <p id="n100">of 100</p>
+        </div>
+
+        <h3>Great</h3>
+        <p id="taglines">You scored higher than the 65% of the people who have taken these tests.</p>
+      </section>
+
+      <form>
+        <h4>Summary</h4>
+        <div class="stat-1">
+          <label ><img src="./data/icon-reaction.png">Reaction</label>
+          <label class="il-1"><input type="number" min="0" max="100" required>/100</label>
+        </div>
+
+        <div class="stat-2">
+          <label ><img src="./data/icon-memory.png">Memory</label>
+          <label class="il-2"><input type="number" min="0" max="100" required>/100</label>
+        </div>
+
+        <div class="stat-3">
+            <label ><img src="./data/icon-verbal.png">Verbal</label>
+            <label class="il-3"><input type="number" min="0" max="100" required>/100</label>
+        </div>
+
+        <div class="stat-4">
+          <label ><img src="./data/icon-visual.png">Visual</label>
+          <label class="il-4"><input type="number" min="0" max="100" required>/100</label>
+        </div>
+
+        <button type="button">Continue</button>
+      </form> 
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

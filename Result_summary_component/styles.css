@@ -1,0 +1,254 @@
+* {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.container {
+    display: flex; /* Use flex container */
+    width: 540px;
+    height: 380px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.section-1 {
+    flex: 1;
+    padding-right: 30px;
+    width: 270px;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+}
+
+.container .avg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin-left: 60px;
+    margin-right: 36px;
+    border-radius: 50%; /* Ensure the circle shape */ /* <-- Change made here */
+}
+
+.avg {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.container .avg span {
+    font-weight: bolder;
+    font-size: 3.5rem;
+    color: white;
+} 
+
+.container .avg #n100 {
+    margin-top: -20px;
+    font-size: 1.3rem;
+}
+
+.container h5{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.container h3{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.container #taglines {
+    font-weight: bold;
+    text-align: center;
+    margin-left: 20px;
+}
+
+form {
+    flex: 1;
+    width: 270px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 15px;
+}
+
+/* Remove up and down arrows for number inputs */
+form input[type="number"]::-webkit-inner-spin-button,
+form input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+form input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+    appearance: textfield; /* Chrome, Safari, Edge */
+}
+
+/* Stat 1 - Reaction */
+form .stat-1 input[type="number"]:focus {
+    outline: 2px solid hsl(0, 100%, 98%); /* Light red */
+}
+
+/* Stat 2 - Memory */
+form .stat-2 input[type="number"]:focus {
+    outline: 2px solid hsl(39, 100%, 97%); /* Orangey yellow */
+}
+
+/* Stat 3 - Verbal */
+form .stat-3 input[type="number"]:focus {
+    outline: 2px solid hsl(165, 100%, 96%); /* Green teal */
+}
+
+/* Stat 4 - Visual */
+form .stat-4 input[type="number"]:focus {
+    outline: 2px solid hsl(235, 55%, 96%); /* Cobalt blue */
+}
+
+.container h4 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    margin-bottom: -5px;
+}
+
+/* Stat 1 - Reaction */
+.container .il-1 input {
+    border: none;
+    background-color: hsl(0, 100%, 98%);
+    padding-left: 20px;
+    font-size: 1rem;
+}
+
+.stat-1 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: hsl(0, 100%, 98%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.stat-1 label {
+    color: hsl(0, 100%, 67%); /* Light red */
+    margin-right: 10px;
+}
+
+
+.il-1 {
+    color: hsl(0, 100%, 67%); /* Light red */
+}
+
+/* Stat 2 - Memory */
+.container .il-2 input {
+    border: none;
+    background-color: hsl(39, 100%, 97%);
+    padding-left: 25px;
+    font-size: 1rem;
+}
+
+.stat-2 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: hsl(39, 100%, 97%);
+}
+
+.stat-2 label {
+    color: hsl(39, 100%, 56%); /* Orangey yellow */
+    margin-right: 10px;
+}
+
+.il-2 {
+    color: hsl(39, 100%, 56%); /* Orangey yellow */
+}
+
+/* Stat 3 - Verbal */
+.container .il-3 input {
+    border: none;
+    background-color: hsl(165, 100%, 96%);
+    padding-left: 38px;
+    font-size: 1rem;
+}
+
+.stat-3 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: hsl(165, 100%, 96%);
+}
+
+.stat-3 label {
+    color: hsl(166, 100%, 37%); /* Green teal */
+    margin-right: 10px;
+}
+
+.il-3 {
+    color: hsl(166, 100%, 37%); /* Green teal */
+}
+
+/* Stat 4 - Visual */
+.container .il-4 input {
+    border: none;
+    background-color: hsl(234, 55%, 96%);
+    padding-left: 43px;
+    font-size: 1rem;
+}
+
+.stat-4 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: hsl(235, 55%, 96%);
+    margin-bottom: 20px;
+}
+
+.stat-4 label {
+    color: hsl(234, 85%, 45%); /* Cobalt blue */
+    margin-right: 10px;
+}
+
+.il-4 {
+    color: hsl(234, 85%, 45%); /* Cobalt blue */
+}
+
+button {
+    width: 100%;
+    font-size: 1rem;
+    color: white;
+    background-color: hsl(224, 100%, 21%);
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid hsl(224, 98%, 18%);
+}
