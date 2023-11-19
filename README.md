@@ -8,3 +8,5 @@ URLs for hosted static sites of this repository
 <h4>3. Result-summary-component: https://result-summary-component00.netlify.app/ </h4>
 
 <h4>4. Column-preview-card: https://column-preview-card-001.netlify.app/ </h4>
+
+<h4>4. Interactive-rating-component: https://interactive-rating-component001.netlify.app/ </h4>
