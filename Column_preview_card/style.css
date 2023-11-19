@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 860px;
+    height: 420px;
+    display: flex; /* Add this line */
+}
+
+.container-1,
+.container-2,
+.container-3 {
+    flex: 1; /* Add this line to make them take equal width */
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    border: 1px solid black;
+}
+
+.container-1{
+    background-color: hsl(31, 77%, 52%);
+    border: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+.container-1 img,
+.container-2 img,
+.container-3 img{
+    padding-bottom: 30px;
+}
+
+.container-1 h1,
+.container-2 h1,
+.container-3 h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 2.25rem;
+    padding-bottom: 30px;
+}
+
+.container-1 p,
+.container-2 p,
+.container-3 p {
+    font-size: 16px;
+    padding-bottom: 60px;
+}
+
+.container-1 button,
+.container-2 button,
+.container-3 button {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 28px;
+    padding-left: 28px;
+    font-size: 16px;
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+}
+
+.container-2 {
+    background-color: hsl(184, 100%, 22%);
+    border:1px solid hsl(184, 100%, 22%);
+}
+
+.container-2 button{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.container-3 {
+    background-color: hsl(179, 100%, 13%);
+    border:1px solid hsl(179, 100%, 13%);
+    border-top-right-radius: 10px; /* for the top right corner */
+    border-bottom-right-radius: 10px;
+}
+
+.container-3 button{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.container-1 button:hover,
+.container-2 button:hover,
+.container-3 button:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      width: auto; /* Adjust width for mobile layout */
+    }
+  
+    .container-1,
+    .container-2,
+    .container-3 {
+      width: 100%; /* Make them take full width on mobile */
+      border-radius: 10px; /* Add border-radius to all containers */
+    }
+  }
