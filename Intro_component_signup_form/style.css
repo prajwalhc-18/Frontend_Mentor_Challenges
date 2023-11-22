@@ -1,0 +1,150 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.background-container {
+    background: hsl(0, 100%, 74%) url('./data/bg-intro-desktop.png') center/cover no-repeat; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+  
+.headlines,
+.form {
+    flex: 1;
+}
+
+.headlines {
+    padding-left: 12%;
+    padding-right: 3%;
+}
+
+.headlines h1 {
+    font-size: 3.5em;
+    max-width: 90%;
+    margin: 0;
+}
+
+.headlines p {
+    font-size: 18px;
+}
+
+.form {
+    padding-right: 12%;
+    padding-left: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form .trail{
+    background-color: hsl(248, 35%, 52%);
+    border: 1px solid hsl(248, 35%, 52%);
+    border-radius: 10px;
+    padding-right: 55px;
+    padding-left: 55px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.form form {
+    width: 350px;
+    height: 390px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.form div {
+    margin-bottom: 32px;
+}
+
+.form input {
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 115px;
+    padding-left: 16px; /* Adjust padding-left as needed */
+    text-align: left; /* Align the text to the left */
+    color: hsl(0, 100%, 74%);
+    border:2px solid hsl(0, 100%, 74%);
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Add this style to your CSS */
+
+.form input.error {
+    background-image: url('./data/icon-error.png');
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Adjust the position as needed */
+    border-color: hsl(0, 100%, 74%);
+}
+
+.form input:focus {
+    border-color: 1px solid hsl(0, 100%, 74%);
+}
+
+.form .submit {
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    border: 1px solid hsl(154, 59%, 51%);
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 5px;
+    padding:12px 12px;
+    padding-right: 75px;
+    padding-left: 70px;
+    margin-bottom: 0;
+}
+
+
+.form .tandc {
+    margin-top: 5px;
+    color: hsl(0, 100%, 74%);
+    font-size: 9px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.tandc p a {
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+}
+
+/* Small screen adjustments */
+@media only screen and (max-width: 768px) {
+    .background-container {
+      flex-direction: column;
+    }
+  
+    .headlines,
+    .form {
+      padding: 0;
+      width: 100%;
+    }
+  
+    .headlines {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  
+    .form {
+      padding-right: 5%;
+      padding-left: 5%;
+    }
+  }
