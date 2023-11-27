@@ -1,0 +1,154 @@
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 21px;
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.3);
+}
+
+.card-body{
+    padding-left: 0;
+    padding-top: 24px;
+    padding-right: 0;
+}
+
+/* Style for the image container */
+.card-img-container {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden; /* Ensure the border-radius applies correctly */
+  }
+  
+  /* Style for the ::after pseudo-element */
+  .card-img-container::after {
+    /* Place the ::after on top of image container */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+    /* Place icon in the center of the container */
+    display: grid;
+    place-items: center;
+    
+    /* Define the icon content and background color */
+    content: url(./data/icon-view.png);
+    background-color: hsl(215, 51%, 70%);
+    
+    /* Initial opacity is 0 */
+    opacity: 0;
+  }
+  
+  /* Change the pseudo-element based on hover of the parent */
+  .card-img-container:hover::after {
+    /* Increase opacity on hover */
+    opacity: 0.5;
+  }
+  
+
+.card-body h5 {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.card-body .card-text {
+    color: hsl(215, 51%, 70%);
+    font-size: 19px;
+    text-align: left;
+}
+
+.card-body .eth {
+    color: hsl(178, 100%, 50%);
+    font-weight: bold;
+    vertical-align: auto;
+}
+
+.card-body .eth img,
+.card-body .clock img {
+    padding-right: 4px;
+}
+
+.clock {
+    padding-left: 7.2rem;
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+}
+
+.avatar {
+    color: hsl(178, 100%, 50%);
+}
+
+.avatar span {
+    color: white;
+    font-size: 17px;
+}
+
+.avatar img {
+    width: 11%;
+    height: 11%;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+  
+@media only screen and (max-width: 768px) {
+    * {
+        font-family: 'Outfit', sans-serif;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: hsl(217, 54%, 11%);
+        font-size: 1.15em; /* Increase the font size to 1.15 times the default */
+    }
+
+    .card {
+        position: static;
+        transform: none;
+        margin: 16px;
+        padding: 16px;
+        background-color: hsl(216, 50%, 16%);
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .card-body {
+        padding: 20px 0;
+    }
+
+    .card-body .card-text {
+        font-size: 16px;
+    }
+
+    .clock {
+        padding-left: 0;
+        font-size: 14px;
+        padding-left: 7.35rem;
+    }
+
+    .avatar img {
+        width: 12%;
+        height: 12%;
+        margin-right: 6px;
+    }
+}
+
+
