@@ -10,3 +10,5 @@ URLs for hosted static sites of this repository
 <h4>4. Column-preview-card: https://column-preview-card-001.netlify.app/ </h4>
 
 <h4>5. Interactive-rating-component: https://interactive-rating-component001.netlify.app/ </h4>
+
+<h4>6. nft-previewcard-component: https://nft-previewcard-component-001.netlify.app/ </h4>
