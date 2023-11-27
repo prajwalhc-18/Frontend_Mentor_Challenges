@@ -26,6 +26,10 @@ body {
     padding-right: 0;
 }
 
+.card-img-top{
+    border-radius: 10px;
+}
+
 .card-body h5 {
     font-weight: bold;
 }
@@ -70,3 +74,50 @@ body {
     margin-right: 10px;
 }
   
+@media only screen and (max-width: 768px) {
+    * {
+        font-family: 'Outfit', sans-serif;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: hsl(217, 54%, 11%);
+        font-size: 1.15em; /* Increase the font size to 1.15 times the default */
+    }
+
+    .card {
+        position: static;
+        transform: none;
+        margin: 16px;
+        padding: 16px;
+        background-color: hsl(216, 50%, 16%);
+        box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .card-body {
+        padding: 20px 0;
+    }
+
+    .card-body .card-text {
+        font-size: 16px;
+    }
+
+    .clock {
+        padding-left: 0;
+        font-size: 14px;
+        padding-left: 6.2rem;
+    }
+
+    .avatar img {
+        width: 12%;
+        height: 12%;
+        margin-right: 6px;
+    }
+}
+
+
