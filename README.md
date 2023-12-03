@@ -1,7 +1,7 @@
 # Frontend_Mentor_Challenges
 <h4>official website link : https://www.frontendmentor.io/challenges</h4>
 
-URLs of the live-hosted challenges of this repository
+URLs of the live-hosted challenges of this repo...............................................
 
 <h4>1. Parallax-Site: https://ex-parallax-site.netlify.app/</h4>
 
