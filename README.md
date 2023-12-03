@@ -1,5 +1,5 @@
 # Frontend_Mentor_Challenges
-<a href="(https://www.frontendmentor.io/challenges)">Frontend Mentor</a>
+ official website link : https://www.frontendmentor.io/challenges"
 
 URLs of the live-hosted challenges of this repository
 
