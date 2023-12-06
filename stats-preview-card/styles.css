@@ -1,0 +1,157 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: hsl(233, 47%, 7%);
+  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container {
+  width: 70rem;
+  height: 28rem;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(244, 38%, 16%);
+}
+
+.img,
+.content {
+  flex: 1;
+}
+
+.img {
+  position: relative;
+  height: 100%; /* Make sure the image takes up the full height of the container */
+  margin-left: -4%;
+}
+
+.img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(277, 64%, 61%, 0.3);
+  z-index: 1;
+}
+
+.img img {
+  display: block;
+  max-width: 100%;
+  height: 100%; /* Set the height to 100% to fill the container */
+  object-fit: cover; /* Maintain aspect ratio while covering the container */
+  opacity: 0.5;
+}
+
+.content {
+  width: 500px;
+  padding-right: 2%;
+  padding-left: 5%;
+  padding-top: 2.1%;
+}
+
+.content h1 {
+  width: 480px;
+  color: white;
+  font-size: 2.8rem;
+}
+
+.content h1 span {
+  color: hsl(277, 64%, 61%);
+}
+
+.content p {
+  width: 385px;
+  color: white;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+.Stats {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats-line {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+
+.stats-line span {
+  font-size: 1.9rem; /* Adjust the font size as per your preference */
+}
+
+.stats-line .one,
+.two,
+.three {
+  font-weight: bold;
+  color: white;
+}
+
+.stats-line .a,
+.b,
+.c {
+  margin-right: -10px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+.stats-line .b {
+  font-size: 0.8rem;
+}
+
+.stats-line .c {
+  font-size: 0.8rem;
+}
+
+/*media queries */
+@media only screen and (max-width: 600px) {
+    .container {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .img {
+      order: -1; /* Move the image div to the top */
+      margin-left: 0;
+    }
+  
+    .img::before {
+      content: none;
+    }
+  
+    .img img {
+      height: auto;
+      max-width: 100%;
+      opacity: 1;
+    }
+  
+    .content {
+      width: 100%;
+      padding: 5% 4%;
+    }
+  
+    .content h1,
+    .content p,
+    .stats,
+    .stats-line,
+    .stats-line span {
+      width: 100%;
+      text-align: center;
+      padding-right: 0;
+      margin-right: 0;
+    }
+  
+    .stats-line {
+      margin-right: 0;
+    }
+  }
+  
