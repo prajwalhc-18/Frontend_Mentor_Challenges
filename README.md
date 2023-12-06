@@ -16,3 +16,5 @@ URLs of the live-hosted challenges of this repo.................................
 <h4>6. nft-previewcard-component: https://nft-previewcard-component-001.netlify.app/ </h4>
 
 <h4>7. Intro-sec-with-nav: https://intro-section-with-nav-9116cd.netlify.app/</h4>
+
+<h4>8. Order-summary-compnent: https://order-summary-component-001.netlify.app/</h4>
