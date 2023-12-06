@@ -1,0 +1,66 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Epilogue", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.card-body {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.card-title {
+  margin-top: 0.9rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 1.5rem;
+}
+
+.plan {
+  background-color: hsl(222, 100%, 98%);
+  border-radius: 12px;
+  padding: 8px;
+  margin-bottom: 2rem;
+}
+
+.plan .price {
+  padding-left: 18px;
+}
+
+.plan .price > span {
+  font-weight: bold;
+}
+
+.plan .change {
+  padding-left: 85px;
+  font-weight: bold;
+  color: hsl(245, 75%, 52%);
+}
+
+#payment {
+  padding: 12px;
+  display: flex;
+  background-color: hsl(245, 75%, 52%);
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+#change:hover {
+text-decoration: none;
+}
+
+.cancel {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
