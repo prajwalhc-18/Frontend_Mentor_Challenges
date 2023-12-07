@@ -22,3 +22,5 @@ URLs of the live-hosted challenges of this repo.................................
 <h4>9. Stats-preview-card: https://stats-preview-card-vvv01.netlify.app/</h4>
 
 <h4>10. Advice-generator: https://advice-generator-ffgg.netlify.app/</h4>
+
+<h4>11. QR-code-compnent: https://qr-code-compnent-gg0.netlify.app/</h4>
