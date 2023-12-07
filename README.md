@@ -20,3 +20,5 @@ URLs of the live-hosted challenges of this repo.................................
 <h4>8. Order-summary-compnent: https://order-summary-component-001.netlify.app/</h4>
 
 <h4>9. Stats-preview-card: https://stats-preview-card-vvv01.netlify.app/</h4>
+
+<h4>10. Advice-generator: https://advice-generator-ffgg.netlify.app/</h4>
