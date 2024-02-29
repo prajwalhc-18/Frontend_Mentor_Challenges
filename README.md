@@ -26,3 +26,5 @@ URLs of the live-hosted challenges of this Repo
 <h4>11. QR-code-compnent: https://qr-code-compnent-gg0.netlify.app/</h4>
 
 <h4>12. Social-Profile-Links: https://social-profile-links-ee22.netlify.app//</h4>
+
+<h4>13. Blog-preview-card: https://blog-preview-card20e.netlify.app/</h4>
