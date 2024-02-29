@@ -1,0 +1,60 @@
+* {
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400, 500, 600;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;    
+}
+
+.card> .card-body {
+    background-color: hsl(0, 0%, 12%);
+    padding: 25px;
+}
+
+.card-body>.about {
+    font-size: 14px;
+}
+
+.card-body>h5, .about {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 12%);
+}
+
+.location{
+    color: hsl(75, 94%, 57%);
+    background-color: hsl(0, 0%, 12%);
+}
+
+.buttons {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons> .btn {
+    margin: 8px; /* Optional: Add margin between buttons for spacing */
+    padding: 10px;
+}
+
+.buttons>a {
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.buttons>a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%; /* Adjust as needed */
+    }
+
+    .buttons {
+        flex-direction: column; 
+    }
+}
