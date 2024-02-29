@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
+    <title>Blog Preview Card</title>
+  </head>
+  <body>
+    <div
+        class="card mx-auto"
+        style="
+            width: 40%; /* Adjust this value based on your preference */
+            max-width: 320px; /* Set a maximum width if needed */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        "
+    >
+        <img
+            src="./data/illustration-article.svg"
+            class="card-img-top"
+            alt="..."
+            style="width: 100%; height: auto; border-radius: 10px;"
+        />
+        <div class="card-body">
+            <label class="card-title">Learning</label>
+            <p class="card-text">Published 21 Dec 2023</p>
+            <h2 class="title-heading">HTML & CSS foundations</h1>
+            <p class="about">
+                These languages are the backbone of every website, defining structure,
+                content, and presentation.
+            </p>
+            <div class="tutor">
+                <img src="./data/image-avatar.webp" alt="" />
+                <label style="font-weight: 700;">Greg Hooper</label>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var card = document.querySelector('.card');
+        var h2 = document.querySelector('.card-body>h2');
+
+        h2.addEventListener('mouseover', function () {
+            card.style.boxShadow = '14px 14px 0px 0px #000000';
+        });
+
+        h2.addEventListener('mouseout', function () {
+            card.style.boxShadow = '8px 8px 0px 0px #000000';
+        });
+    });
+</script>
+</html>

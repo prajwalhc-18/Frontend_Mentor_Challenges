@@ -1,0 +1,85 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500,800;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.card {
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px black solid;
+    box-shadow: 8px 8px 0px 0px #000000;
+    transition: box-shadow 0.3s ease; 
+}
+.card>img {
+    margin-bottom: 20px;
+}
+
+.card-body>label {
+    padding: 6px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 16px;
+    background-color: hsl(47, 88%, 63%);
+    margin-bottom: 18px;
+    font-weight: 800;
+    border-radius: 2px;
+}
+
+.card-body>h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card-body>h2:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.card-body>.about {
+    font-size: 16px;
+    line-height: 1.3;
+    color: hsl(0, 0%, 50%);
+}
+
+.card-body> .tutor img {
+    width: 10%;
+    height: auto;
+}
+
+.tutor {
+    display: flex;
+    align-items: center;
+}
+
+.tutor label {
+    margin-left: 10px; 
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+        width: 80%;
+        max-width: none; /* Remove max-width for smaller screens */
+        position: relative;
+        left: auto;
+        top: auto;
+        transform: none;
+        margin: 20px auto;
+    }
+
+    .card>img {
+        margin-bottom: 14px;
+    }
+
+    .tutor label {
+        margin-left: 5px; 
+    }
+}
