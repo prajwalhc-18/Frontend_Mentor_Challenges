@@ -1,0 +1,58 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px rgb(254, 254, 254) solid;
+  transition: box-shadow 0.3s ease;
+  width: 60%; /* Adjust this value based on your preference */
+  max-width: 400px; /* Set a maximum width if needed */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card > img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card-body > .card-title {
+  margin-bottom: 0px;
+}
+
+.card-body > .prep {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  line-height: 1.5;
+}
+
+.prep > h5 {
+  margin-bottom: 0px;
+  padding: 5px;
+}
+
+.prep > ul {
+  margin-top: 0px;
+}
+
+.prep ul {
+  padding: 0;
+}
+
+.prep ul li {
+  margin-left: 20px; /* Adjust this value according to your preference */
+}
+
+.prep {
+  padding-right: 20px; /* Adjust this value according to your preference */
+}
+
+.prep ul {
+  padding: 0;
+}
