@@ -30,3 +30,5 @@ URLs of the live-hosted challenges of this Repo
 <h4>13. Blog-preview-card: https://blog-preview-card20e.netlify.app/</h4>
 
 <h4>14. Recipe-page-main: https://recipe-page-main-00er.netlify.app/</h4>
+
+<h4>14. Article-preview-compnent: https://article-preview-component-00e.netlify.app//</h4>
