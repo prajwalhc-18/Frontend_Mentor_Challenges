@@ -31,4 +31,6 @@ URLs of the live-hosted challenges of this Repo
 
 <h4>14. Recipe-page-main: https://recipe-page-main-00er.netlify.app/</h4>
 
-<h4>14. Article-preview-compnent: https://article-preview-component-00e.netlify.app//</h4>
+<h4>15. Article-preview-compnent: https://article-preview-component-00e.netlify.app//</h4>
+
+<h4>16. Google Login Page: <a href="https://g-login-page.netlify.app//">https://g-login-page.netlify.app//</a></h4>
