@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login using Google</title>
+  </head>
+  <body>
+    <main>
+      <div class="login">
+        <form action="">
+          <p class="title">Log in to your account</p>
+          <div class="g-login">
+            <button id="glogin" type="submit">
+              <img src="./data/icons8-google-240.png" alt="google login" /> Log
+              in with Google
+            </button>
+          </div>
+          <p class="or">OR</p>
+          <label class="email"> Email address</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <button type="submit" class="continue">Continue</button>
+
+          <p class="signup">Don't have an account?<a href="">Sign up</a></p>
+        </form>
+      </div>
+      <div class="info">
+        <h2>Seamless data tiering with Online Archive</h2>
+        <p>
+          Offload aged data from your cluster to a lower-cost, queryable storage
+          tier. Create an Online Archive to start saving on storage costs.
+        </p>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
