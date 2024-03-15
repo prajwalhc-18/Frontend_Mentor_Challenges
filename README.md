@@ -34,3 +34,6 @@ URLs of the live-hosted challenges of this Repo
 <h4>15. Article-preview-compnent: https://article-preview-component-00e.netlify.app//</h4>
 
 <h4>16. Google Login Page: https://g-login-page.netlify.app//</a></h4>
+
+<h4>17. Huddle-landing-page : https://huddle-landing-page-2024e.netlify.app/</h4>
+
